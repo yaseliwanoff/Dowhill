@@ -32,6 +32,8 @@ header
 
 <style lang="sass" scoped>
 header
+  z-index: 9999
+
   .header-wrapper
     display: grid
     grid-template-columns: repeat(6, minmax(100px, 1fr))
@@ -47,7 +49,6 @@ header
       padding-inline: 20px
       height: 60px
       transition: 0.1s linear
-      
 
       a
         width: 100%
@@ -70,13 +71,13 @@ header
           position: absolute
           background: black
           width: 100%
-          height: 1px
+          height: 2px
           bottom: 0
           left: 0
           transform: scaleX(0)
           transform-origin: left
           transition: transform .2s ease
-          
+
     .header-menu
       display: flex
       gap: 2px
