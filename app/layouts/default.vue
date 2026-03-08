@@ -1,6 +1,5 @@
 <template lang="pug">
-  header
-    p header
+  TemplateHeader
   main
     slot
   footer
