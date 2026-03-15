@@ -8,49 +8,49 @@ export default defineNuxtConfig({
   css: ['./app/assets/css/main.css'],
 
   vite: {
-	plugins: [
-	  tailwindcss(),
-	]
+				plugins: [
+						tailwindcss(),
+				]
   },
 
   components: {
-	dirs: [
-	  '~/components',
-	  '~/components/ui'
-	],
+				dirs: [
+						'~/components',
+						'~/components/ui'
+				],
   },
 
   app: {
-	head: {
-	  title: "Dowhill — Онлайн магазин снежного оборудования",
-	  meta: [
-		{ charset: 'utf-8' },
-		{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-	  ],
-	  link: [
-		{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-	  ],
-	},
-	pageTransition: { name: 'page', mode: 'out-in' },
-	layoutTransition: { name: 'layout', mode: 'out-in' },
+				head: {
+						title: "Dowhill — Онлайн магазин снежного оборудования",
+						meta: [
+								{ charset: 'utf-8' },
+								{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+						],
+						link: [
+								{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+						],
+				},
+				pageTransition: { name: 'page', mode: 'out-in' },
+				layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
   experimental: {
-	payloadExtraction: false,
-	renderJsonPayloads: true,
-	typedPages: true,
+				payloadExtraction: false,
+				renderJsonPayloads: true,
+				typedPages: true,
   },
 
   modules: ['@nuxtjs/google-fonts'],
 
   googleFonts: {
-	families: {
-	  'Oswald': {
-		wght: [400, 500, 600]
-	  },
-	  'Inter': {
-		wght: [400, 600]
-	  }
-	}
+				families: {
+						'Oswald': {
+								wght: [400, 500, 600]
+						},
+						'Inter': {
+								wght: [400, 600]
+						}
+				}
   }
 })
