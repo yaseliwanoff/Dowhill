@@ -54,21 +54,22 @@ h2 {
 
 h3 {
   font-family: var(--font-head);
-  font-size: var(--text-h2-size);
-  line-height: var(--text-h1-line-height);
-  font-weight: var(--text-h2-weight);
-  text-transform: var(--text-h2-transform);
+  font-size: var(--text-h3-size);
+  line-height: var(--text-h3-line-height);
+  font-weight: var(--text-h3-weight);
+  text-transform: var(--text-h3-transform);
 }
 
 h4 {
   font-family: var(--font-head);
-  font-size: var(--text-h2-size);
-  line-height: var(--text-h2-line-height);
-  font-weight: var(--text-h2-weight);
-  text-transform: var(--text-h2-transform);
+  font-size: var(--text-h4-size);
+  line-height: var(--text-h4-line-height);
+  font-weight: var(--text-h4-weight);
+  text-transform: var(--text-h4-transform);
 }
 
 html, body {
   font-family: var(--font-sans);
   font-size: var(--text-size);
+  color: var(--color-black);
 }
